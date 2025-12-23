@@ -1,0 +1,10 @@
+name = "qr-health-portal"
+main = "worker.js"
+compatibility_date = "2024-01-01"
+
+[vars]
+ENVIRONMENT = "production"
+
+[[routes]]
+pattern = "health.quantum-rishi.com/*"
+zone_name = "quantum-rishi.com"
